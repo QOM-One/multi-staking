@@ -1,6 +1,6 @@
 go 1.19
 
-module github.com/realio-tech/multi-staking-module
+module github.com/qom-one/multi-staking-module
 
 require (
 	cosmossdk.io/errors v1.0.0-beta.7
