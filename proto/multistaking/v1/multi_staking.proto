@@ -8,7 +8,7 @@ import "cosmos/staking/v1beta1/staking.proto";
 import "google/protobuf/timestamp.proto";
 import "google/protobuf/any.proto";
 
-option go_package = "github.com/realiotech/multi-staking/x/multi-staking/types";
+option go_package = "github.com/qom-one/multi-staking/x/multi-staking/types";
 
 message MultiStakingCoin {
   string denom = 1;

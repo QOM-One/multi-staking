@@ -1,9 +1,9 @@
 package multistaking
 
 import (
-	"github.com/realio-tech/multi-staking-module/x/multi-staking/client/cli"
-	"github.com/realio-tech/multi-staking-module/x/multi-staking/keeper"
-	"github.com/realio-tech/multi-staking-module/x/multi-staking/types"
+	"github.com/qom-one/multi-staking-module/x/multi-staking/client/cli"
+	"github.com/qom-one/multi-staking-module/x/multi-staking/keeper"
+	"github.com/qom-one/multi-staking-module/x/multi-staking/types"
 
 	sdkerrors "cosmossdk.io/errors"
 

@@ -929,23 +929,23 @@ func RegisterQueryHandlerClient(ctx context.Context, mux *runtime.ServeMux, clie
 }
 
 var (
-	pattern_Query_MultiStakingLocks_0 = runtime.MustPattern(runtime.NewPattern(1, []int{2, 0, 2, 1, 2, 2, 2, 3}, []string{"realiotech", "multistaking", "v1", "locks"}, "", runtime.AssumeColonVerbOpt(false)))
+	pattern_Query_MultiStakingLocks_0 = runtime.MustPattern(runtime.NewPattern(1, []int{2, 0, 2, 1, 2, 2, 2, 3}, []string{"qom-one", "multistaking", "v1", "locks"}, "", runtime.AssumeColonVerbOpt(false)))
 
-	pattern_Query_MultiStakingLock_0 = runtime.MustPattern(runtime.NewPattern(1, []int{2, 0, 2, 1, 2, 2, 2, 3, 1, 0, 4, 1, 5, 4, 1, 0, 4, 1, 5, 5}, []string{"realiotech", "multistaking", "v1", "lock", "validator_address", "multi_staker_address"}, "", runtime.AssumeColonVerbOpt(false)))
+	pattern_Query_MultiStakingLock_0 = runtime.MustPattern(runtime.NewPattern(1, []int{2, 0, 2, 1, 2, 2, 2, 3, 1, 0, 4, 1, 5, 4, 1, 0, 4, 1, 5, 5}, []string{"qom-one", "multistaking", "v1", "lock", "validator_address", "multi_staker_address"}, "", runtime.AssumeColonVerbOpt(false)))
 
-	pattern_Query_MultiStakingUnlocks_0 = runtime.MustPattern(runtime.NewPattern(1, []int{2, 0, 2, 1, 2, 2, 2, 3}, []string{"realiotech", "multistaking", "v1", "unlocks"}, "", runtime.AssumeColonVerbOpt(false)))
+	pattern_Query_MultiStakingUnlocks_0 = runtime.MustPattern(runtime.NewPattern(1, []int{2, 0, 2, 1, 2, 2, 2, 3}, []string{"qom-one", "multistaking", "v1", "unlocks"}, "", runtime.AssumeColonVerbOpt(false)))
 
-	pattern_Query_MultiStakingUnlock_0 = runtime.MustPattern(runtime.NewPattern(1, []int{2, 0, 2, 1, 2, 2, 2, 3, 1, 0, 4, 1, 5, 4, 1, 0, 4, 1, 5, 5}, []string{"realiotech", "multistaking", "v1", "unlock", "validator_address", "multi_staker_address"}, "", runtime.AssumeColonVerbOpt(false)))
+	pattern_Query_MultiStakingUnlock_0 = runtime.MustPattern(runtime.NewPattern(1, []int{2, 0, 2, 1, 2, 2, 2, 3, 1, 0, 4, 1, 5, 4, 1, 0, 4, 1, 5, 5}, []string{"qom-one", "multistaking", "v1", "unlock", "validator_address", "multi_staker_address"}, "", runtime.AssumeColonVerbOpt(false)))
 
-	pattern_Query_ValidatorMultiStakingCoin_0 = runtime.MustPattern(runtime.NewPattern(1, []int{2, 0, 2, 1, 2, 2, 2, 3, 1, 0, 4, 1, 5, 4}, []string{"realiotech", "multistaking", "v1", "validator-coin", "validator_addr"}, "", runtime.AssumeColonVerbOpt(false)))
+	pattern_Query_ValidatorMultiStakingCoin_0 = runtime.MustPattern(runtime.NewPattern(1, []int{2, 0, 2, 1, 2, 2, 2, 3, 1, 0, 4, 1, 5, 4}, []string{"qom-one", "multistaking", "v1", "validator-coin", "validator_addr"}, "", runtime.AssumeColonVerbOpt(false)))
 
-	pattern_Query_MultiStakingCoinInfos_0 = runtime.MustPattern(runtime.NewPattern(1, []int{2, 0, 2, 1, 2, 2, 2, 3}, []string{"realiotech", "multistaking", "v1", "coin-infos"}, "", runtime.AssumeColonVerbOpt(false)))
+	pattern_Query_MultiStakingCoinInfos_0 = runtime.MustPattern(runtime.NewPattern(1, []int{2, 0, 2, 1, 2, 2, 2, 3}, []string{"qom-one", "multistaking", "v1", "coin-infos"}, "", runtime.AssumeColonVerbOpt(false)))
 
-	pattern_Query_BondWeight_0 = runtime.MustPattern(runtime.NewPattern(1, []int{2, 0, 2, 1, 2, 2, 2, 3, 1, 0, 4, 1, 5, 4}, []string{"realiotech", "multistaking", "v1", "weight", "denom"}, "", runtime.AssumeColonVerbOpt(false)))
+	pattern_Query_BondWeight_0 = runtime.MustPattern(runtime.NewPattern(1, []int{2, 0, 2, 1, 2, 2, 2, 3, 1, 0, 4, 1, 5, 4}, []string{"qom-one", "multistaking", "v1", "weight", "denom"}, "", runtime.AssumeColonVerbOpt(false)))
 
-	pattern_Query_Validators_0 = runtime.MustPattern(runtime.NewPattern(1, []int{2, 0, 2, 1, 2, 2, 2, 3}, []string{"realiotech", "multistaking", "v1", "validators"}, "", runtime.AssumeColonVerbOpt(false)))
+	pattern_Query_Validators_0 = runtime.MustPattern(runtime.NewPattern(1, []int{2, 0, 2, 1, 2, 2, 2, 3}, []string{"qom-one", "multistaking", "v1", "validators"}, "", runtime.AssumeColonVerbOpt(false)))
 
-	pattern_Query_Validator_0 = runtime.MustPattern(runtime.NewPattern(1, []int{2, 0, 2, 1, 2, 2, 2, 3, 1, 0, 4, 1, 5, 4}, []string{"realiotech", "multistaking", "v1", "validators", "validator_addr"}, "", runtime.AssumeColonVerbOpt(false)))
+	pattern_Query_Validator_0 = runtime.MustPattern(runtime.NewPattern(1, []int{2, 0, 2, 1, 2, 2, 2, 3, 1, 0, 4, 1, 5, 4}, []string{"qom-one", "multistaking", "v1", "validators", "validator_addr"}, "", runtime.AssumeColonVerbOpt(false)))
 )
 
 var (

@@ -1,7 +1,7 @@
 package cli
 
 import (
-	"github.com/realio-tech/multi-staking-module/x/multi-staking/types"
+	"github.com/qom-one/multi-staking-module/x/multi-staking/types"
 	"github.com/spf13/cobra"
 
 	"github.com/cosmos/cosmos-sdk/client"

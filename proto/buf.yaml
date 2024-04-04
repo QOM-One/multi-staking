@@ -4,7 +4,7 @@
 # This module represents the "proto" root found in
 # the previous configuration.
 version: v1
-name: buf.build/realiotech/multi-staking
+name: buf.build/qom-one/multi-staking
 deps:
   - buf.build/cosmos/cosmos-sdk
   - buf.build/cosmos/cosmos-proto

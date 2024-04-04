@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/realio-tech/multi-staking-module/test"
-	"github.com/realio-tech/multi-staking-module/test/simapp"
-	multistakingkeeper "github.com/realio-tech/multi-staking-module/x/multi-staking/keeper"
+	"github.com/qom-one/multi-staking-module/test"
+	"github.com/qom-one/multi-staking-module/test/simapp"
+	multistakingkeeper "github.com/qom-one/multi-staking-module/x/multi-staking/keeper"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 	abci "github.com/tendermint/tendermint/abci/types"

@@ -8,10 +8,10 @@ import (
 	"path/filepath"
 
 	"github.com/gorilla/mux"
+	multistaking "github.com/qom-one/multi-staking-module/x/multi-staking"
+	multistakingkeeper "github.com/qom-one/multi-staking-module/x/multi-staking/keeper"
+	multistakingtypes "github.com/qom-one/multi-staking-module/x/multi-staking/types"
 	"github.com/rakyll/statik/fs"
-	multistaking "github.com/realio-tech/multi-staking-module/x/multi-staking"
-	multistakingkeeper "github.com/realio-tech/multi-staking-module/x/multi-staking/keeper"
-	multistakingtypes "github.com/realio-tech/multi-staking-module/x/multi-staking/types"
 	"github.com/spf13/cast"
 	abci "github.com/tendermint/tendermint/abci/types"
 	"github.com/tendermint/tendermint/libs/log"

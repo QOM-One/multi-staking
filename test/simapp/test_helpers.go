@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"time"
 
-	multistakingtypes "github.com/realio-tech/multi-staking-module/x/multi-staking/types"
+	multistakingtypes "github.com/qom-one/multi-staking-module/x/multi-staking/types"
 	abci "github.com/tendermint/tendermint/abci/types"
 	"github.com/tendermint/tendermint/libs/log"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"

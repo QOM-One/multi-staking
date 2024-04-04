@@ -4,7 +4,7 @@ info:
   description: A REST interface for state queries
   version: 1.0.0
 paths:
-  /realiotech/multistaking/v1/coin-infos:
+  /qom-one/multistaking/v1/coin-infos:
     get:
       operationId: MultiStakingCoinInfos
       responses:
@@ -131,7 +131,7 @@ paths:
           type: boolean
       tags:
         - Query
-  /realiotech/multistaking/v1/lock/{validator_address}/{multi_staker_address}:
+  /qom-one/multistaking/v1/lock/{validator_address}/{multi_staker_address}:
     get:
       operationId: MultiStakingLock
       responses:
@@ -194,7 +194,7 @@ paths:
           type: string
       tags:
         - Query
-  /realiotech/multistaking/v1/locks:
+  /qom-one/multistaking/v1/locks:
     get:
       operationId: MultiStakingLocks
       responses:
@@ -333,7 +333,7 @@ paths:
           type: boolean
       tags:
         - Query
-  /realiotech/multistaking/v1/unlock/{validator_address}/{multi_staker_address}:
+  /qom-one/multistaking/v1/unlock/{validator_address}/{multi_staker_address}:
     get:
       operationId: MultiStakingUnlock
       responses:
@@ -407,7 +407,7 @@ paths:
           type: string
       tags:
         - Query
-  /realiotech/multistaking/v1/unlocks:
+  /qom-one/multistaking/v1/unlocks:
     get:
       operationId: MultiStakingUnlocks
       responses:
@@ -557,7 +557,7 @@ paths:
           type: boolean
       tags:
         - Query
-  /realiotech/multistaking/v1/validator-coin/{validator_addr}:
+  /qom-one/multistaking/v1/validator-coin/{validator_addr}:
     get:
       operationId: ValidatorMultiStakingCoin
       responses:
@@ -597,7 +597,7 @@ paths:
           type: string
       tags:
         - Query
-  /realiotech/multistaking/v1/validators:
+  /qom-one/multistaking/v1/validators:
     get:
       operationId: Validators
       responses:
@@ -825,7 +825,7 @@ paths:
           type: boolean
       tags:
         - Query
-  /realiotech/multistaking/v1/validators/{validator_addr}:
+  /qom-one/multistaking/v1/validators/{validator_addr}:
     get:
       operationId: Validator
       responses:
@@ -966,7 +966,7 @@ paths:
           type: string
       tags:
         - Query
-  /realiotech/multistaking/v1/weight/{denom}:
+  /qom-one/multistaking/v1/weight/{denom}:
     get:
       operationId: BondWeight
       responses:

@@ -1,7 +1,7 @@
 package keeper_test
 
 import (
-	"github.com/realio-tech/multi-staking-module/test/simapp"
+	"github.com/qom-one/multi-staking-module/test/simapp"
 	abci "github.com/tendermint/tendermint/abci/types"
 	"github.com/tendermint/tendermint/libs/log"
 	dbm "github.com/tendermint/tm-db"

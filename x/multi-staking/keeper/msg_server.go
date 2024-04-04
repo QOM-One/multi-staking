@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/realio-tech/multi-staking-module/x/multi-staking/types"
+	"github.com/qom-one/multi-staking-module/x/multi-staking/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	stakingkeeper "github.com/cosmos/cosmos-sdk/x/staking/keeper"
