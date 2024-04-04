@@ -3,7 +3,7 @@ package keeper
 import (
 	"context"
 
-	"github.com/qom-one/multi-staking-module/x/multi-staking/types"
+	"github.com/qom-one/multi-staking/x/multi-staking/types"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 

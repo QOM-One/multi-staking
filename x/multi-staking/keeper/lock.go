@@ -1,7 +1,7 @@
 package keeper
 
 import (
-	"github.com/qom-one/multi-staking-module/x/multi-staking/types"
+	"github.com/qom-one/multi-staking/x/multi-staking/types"
 
 	"cosmossdk.io/errors"
 

@@ -3,7 +3,7 @@ package types_test
 import (
 	"testing"
 
-	"github.com/qom-one/multi-staking-module/x/multi-staking/types"
+	"github.com/qom-one/multi-staking/x/multi-staking/types"
 	"github.com/stretchr/testify/suite"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"

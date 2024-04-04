@@ -8,9 +8,9 @@ import (
 	"path/filepath"
 
 	"github.com/gorilla/mux"
-	multistaking "github.com/qom-one/multi-staking-module/x/multi-staking"
-	multistakingkeeper "github.com/qom-one/multi-staking-module/x/multi-staking/keeper"
-	multistakingtypes "github.com/qom-one/multi-staking-module/x/multi-staking/types"
+	multistaking "github.com/qom-one/multi-staking/x/multi-staking"
+	multistakingkeeper "github.com/qom-one/multi-staking/x/multi-staking/keeper"
+	multistakingtypes "github.com/qom-one/multi-staking/x/multi-staking/types"
 	"github.com/rakyll/statik/fs"
 	"github.com/spf13/cast"
 	abci "github.com/tendermint/tendermint/abci/types"

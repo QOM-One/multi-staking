@@ -1,9 +1,9 @@
 package keeper_test
 
 import (
-	"github.com/qom-one/multi-staking-module/test"
-	multistakingkeeper "github.com/qom-one/multi-staking-module/x/multi-staking/keeper"
-	"github.com/qom-one/multi-staking-module/x/multi-staking/types"
+	"github.com/qom-one/multi-staking/test"
+	multistakingkeeper "github.com/qom-one/multi-staking/x/multi-staking/keeper"
+	"github.com/qom-one/multi-staking/x/multi-staking/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )

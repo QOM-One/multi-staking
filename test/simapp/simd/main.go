@@ -3,8 +3,8 @@ package main
 import (
 	"os"
 
-	"github.com/qom-one/multi-staking-module/test/simapp"
-	"github.com/qom-one/multi-staking-module/test/simapp/simd/cmd"
+	"github.com/qom-one/multi-staking/test/simapp"
+	"github.com/qom-one/multi-staking/test/simapp/simd/cmd"
 
 	"github.com/cosmos/cosmos-sdk/server"
 	svrcmd "github.com/cosmos/cosmos-sdk/server/cmd"
