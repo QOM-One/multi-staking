@@ -7,46 +7,46 @@ import "multistaking/v1/multi_staking.proto";
 import "cosmos/base/query/v1beta1/pagination.proto";
 import "google/api/annotations.proto";
 
-option go_package = "github.com/realiotech/multi-staking/x/multi-staking/types";
+option go_package = "github.com/qom-one/multi-staking/x/multi-staking/types";
 
 // Query defines the gRPC querier service.
 service Query {
   rpc MultiStakingLocks(QueryMultiStakingLocksRequest)
       returns (QueryMultiStakingLocksResponse) {
-    option (google.api.http).get = "/realiotech/multistaking/v1/locks";
+    option (google.api.http).get = "/qom-one/multistaking/v1/locks";
   }
   rpc MultiStakingLock(QueryMultiStakingLockRequest)
       returns (QueryMultiStakingLockResponse) {
-    option (google.api.http).get = "/realiotech/multistaking/v1/lock/"
+    option (google.api.http).get = "/qom-one/multistaking/v1/lock/"
                                    "{validator_address}/{multi_staker_address}";
   }
   rpc MultiStakingUnlocks(QueryMultiStakingUnlocksRequest)
       returns (QueryMultiStakingUnlocksResponse) {
-    option (google.api.http).get = "/realiotech/multistaking/v1/unlocks";
+    option (google.api.http).get = "/qom-one/multistaking/v1/unlocks";
   }
   rpc MultiStakingUnlock(QueryMultiStakingUnlockRequest)
       returns (QueryMultiStakingUnlockResponse) {
-    option (google.api.http).get = "/realiotech/multistaking/v1/unlock/"
+    option (google.api.http).get = "/qom-one/multistaking/v1/unlock/"
                                    "{validator_address}/{multi_staker_address}";
   }
   rpc ValidatorMultiStakingCoin(QueryValidatorMultiStakingCoinRequest)
       returns (QueryValidatorMultiStakingCoinResponse) {
     option (google.api.http).get =
-        "/realiotech/multistaking/v1/validator-coin/{validator_addr}";
+        "/qom-one/multistaking/v1/validator-coin/{validator_addr}";
   }
   rpc MultiStakingCoinInfos(QueryMultiStakingCoinInfosRequest)
       returns (QueryMultiStakingCoinInfosResponse) {
-    option (google.api.http).get = "/realiotech/multistaking/v1/coin-infos";
+    option (google.api.http).get = "/qom-one/multistaking/v1/coin-infos";
   }
   rpc BondWeight(QueryBondWeightRequest) returns (QueryBondWeightResponse) {
-    option (google.api.http).get = "/realiotech/multistaking/v1/weight/{denom}";
+    option (google.api.http).get = "/qom-one/multistaking/v1/weight/{denom}";
   }
   rpc Validators(QueryValidatorsRequest)
       returns (QueryValidatorsResponse) {
-    option (google.api.http).get = "/realiotech/multistaking/v1/validators";
+    option (google.api.http).get = "/qom-one/multistaking/v1/validators";
   }
   rpc Validator(QueryValidatorRequest) returns (QueryValidatorResponse) {
-    option (google.api.http).get = "/realiotech/multistaking/v1/validators/{validator_addr}";
+    option (google.api.http).get = "/qom-one/multistaking/v1/validators/{validator_addr}";
   }
 }
 

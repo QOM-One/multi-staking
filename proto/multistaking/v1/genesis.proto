@@ -12,7 +12,7 @@ import "multistaking/v1/multi_staking.proto";
 
 import "cosmos/msg/v1/msg.proto";
 
-option go_package = "github.com/realiotech/multi-staking/x/multi-staking/types";
+option go_package = "github.com/qom-one/multi-staking/x/multi-staking/types";
 
 message GenesisState {
   repeated MultiStakingLock multi_staking_locks = 1

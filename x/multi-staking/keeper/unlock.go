@@ -3,7 +3,7 @@ package keeper
 import (
 	"fmt"
 
-	"github.com/realio-tech/multi-staking-module/x/multi-staking/types"
+	"github.com/qom-one/multi-staking-module/x/multi-staking/types"
 
 	"cosmossdk.io/math"
 

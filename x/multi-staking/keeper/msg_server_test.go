@@ -3,9 +3,9 @@ package keeper_test
 import (
 	"time"
 
-	"github.com/realio-tech/multi-staking-module/test"
-	multistakingkeeper "github.com/realio-tech/multi-staking-module/x/multi-staking/keeper"
-	multistakingtypes "github.com/realio-tech/multi-staking-module/x/multi-staking/types"
+	"github.com/qom-one/multi-staking-module/test"
+	multistakingkeeper "github.com/qom-one/multi-staking-module/x/multi-staking/keeper"
+	multistakingtypes "github.com/qom-one/multi-staking-module/x/multi-staking/types"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
 	"cosmossdk.io/math"
